@@ -20,5 +20,38 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: rgb(5, 113, 95);
+    background-color: rgb(255, 243, 21);
 }
+.hero {
+    height: 600px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    animation:carSlideshow 20s infinite;
+}
+@keyframes carSlideshow {
+    0% {
+        background-image:url("images/image 1.png")
+    }
+    33% {
+        background-image:url("images/image 2.png")
+    }
+    66% {
+        background-image:url("images/image 3.png")
+    }
+    100% {
+        background-image:url("images/image 4.png")
+    }
+}
+  .hero-content {
+text-align: center;
+color:white;
+background-color: rgba(0,0,0,0.5);
+padding: 30px;
+border-radius: 10px;
+}
+    
