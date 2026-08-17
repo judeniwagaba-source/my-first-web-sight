@@ -20,7 +20,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: rgb(255, 243, 21);
+    background-color: rgba(6, 121, 153, 0.86);
 }
 .hero {
     height: 600px;
